@@ -162,7 +162,7 @@ if st.session_state.kategori:
         except FileNotFoundError:
             st.warning(f"File audio '{file_audio}' tidak ditemukan.")
 
-    mainkan_audio("pertanyaan.mp3")
+    mainkan_audio("12.mp3")
 
     huruf_acak = list(jawaban)
     random.shuffle(huruf_acak)
